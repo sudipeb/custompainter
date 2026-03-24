@@ -1,3 +1,4 @@
+import 'package:custompainter/widgets/pulsating_circle.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(context) {
-    return MaterialApp();
+  Widget build(BuildContext context) {
+    return const MaterialApp(debugShowCheckedModeBanner: false, home: PulsingCircleWidget());
   }
 }
